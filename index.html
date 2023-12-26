@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#111111">
+        <title>Астраханский государственный медицинский университет</title>
+        <link rel="preload" href="fonts/JostSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/JostBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/JostRegular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="vendor.css">
+        <link rel="stylesheet" href="main.css">
+        <script defer="defer" src="main.js"></script>
+    </head>
+    <body class="page__body">
+        <div class="site-container">
+            <header class="header">
+                <div class="container-fluid header__container">
+                    <a href="index.html" class="logo">
+                        <img loading="lazy" src="img/Фгбоу Во Астраханский Гму.svg" class="image" width="350" height="48" alt="Логотип">
+                    </a>
+                    <nav class="nav" title="Главное меню" data-menu>
+                        <ul class="list-reset nav__list">
+                            <li class="nav__item">
+                                <a href="О нас.html" class="nav__link" data-scroll data-menu-item>О нас</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#trainers" class="nav__link" data-scroll data-menu-item>Учителя</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#tariffs" class="nav__link" data-scroll data-menu-item>Курсы</a>
+                            </li>
+                        </ul>
+                        <button class="btn__reset burger-close" aria-label="Закрыть меню" data-menu-close id="close">
+                    </nav>
+                    <a href="tel:+78000001122" class="phone header__phone">+7(8512) 66-94-80</a>
+                    <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </button>
+                </div>
+                <div class="popup" id="popup"></div>
+            </header>
+            <main class="main">
+                <section class="hero">
+                    <div class="container hero__container">
+                        <div class="hero__content">
+                            <div class="hero__title">
+                                <h1 class="hero__h1">Фгбоу Во Астраханский Гму</h1>
+                                <span class="hero__title-text">Дополнительное профессиональное образование медицинских и фармацевтических работников</span>
+                            </div>
+                            <a href="#tariffs" class="hero__link btn btn-reset" data-scroll>Записаться на курс</a>
+                        </div>
+                        <div class="hero__picture">
+                            <picture>
+                                <img loading="lazy" src="img/Group 211.png" class="hero__image" width="783" height="918" alt="Мужчина">
+                            </picture>
+                        </div>
+                    </div>
+                </section>
+                <section class="about section-offset" id="about">
+                    <div class="container">
+                        <p class="about__descr">
+                            <span class="about__descr-hightlight">Полное наименование образовательной организации</span>
+                            — Федеральное государственное бюджетное образовательное учреждение высшего образования «Астраханский государственный медицинский университет»
+                        </p>
+                        <ul class="list-reset about__list">
+                            <li class="about__item">
+                                <div class="about__digit">100</div>
+                                <p class="about__text">По различным направлениям медицины</p>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__digit">25</div>
+                                <p class="about__text">Университеты, в которых запущена повышения квалификации</p>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__digit">150</div>
+                                <p class="about__text">Педагогов прошедших курсы повышения квалификации</p>
+                            </li>
+                            <li class="about__item">
+                                <div class="about__digit">10000</div>
+                                <p class="about__text">Обученных на базе собственных центров</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="benefits section-offset">
+                    <div class="container">
+                        <h2 class="benefits__title section-title">Что вы получите после курса</h2>
+                        <ul class="list-reset benefits__list">
+                            <li class="benefits__item">
+                                <h3 class="benefits__subtitle">Удостоверение</h3>
+                                <p class="benefits__descr">Дающее право преподавать в образовательных учреждениях и работать в медицине.</p>
+                            </li>
+                            <li class="benefits__item">
+                                <h3 class="benefits__subtitle">Знания</h3>
+                                <p class="benefits__descr">По окончанию вы получаете медецинское знания.</p>
+                            </li>
+                            <li class="benefits__item">
+                                <h3 class="benefits__subtitle">Практику</h3> 
+                                </h3>
+                                <p class="benefits__descr">Возможность пройти практику по разным больницам.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="trainers section-offset" id="trainers">
+                    <div class="container">
+                        <h2 class="trainers__title section-title">Наши учителя</h2>
+                    </div>
+                    <div class="trainers__wraper">
+                        <div class="swiper trainers__content">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="trainers__item">
+                                        <picture>
+                                            <img loading="lazy" src="img/image 7.png" class="trainers__image" width="360" height="900" >
+                                        </picture>
+                                        <div class="trainers__name">Шаповалова Марина Александровна</div>
+                                        <div class="trainers__post">Доктор медицинских наук, профессор</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="trainers__item">
+                                        <picture>
+                                            <img loading="lazy" src="img/unsplash_IF9TK5Uy-KI.png" class="trainers__image" width="360" height="900" >
+                                        </picture>
+                                        <div class="trainers__name">Удочкина Лариса Альбертовна</div>
+                                        <div class="trainers__post">Доктор медицинских наук</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="trainers__item">
+                                        <picture>
+                                            <img loading="lazy" src="img/unsplash_OhKElOkQ3RE.png" class="trainers__image" width="360" height="900">
+                                        </picture>
+                                        <div class="trainers__name">Орлов Фёдор Викторович</div>
+                                        <div class="trainers__post">Кандидат медицинских наук, доцент</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tariffs section-offset" id="tariffs">
+                    <div class="container">
+                        <h2 class="tariffs__title section-title">Выберите нужный курс</h2>
+                        <ul class="list-reset tariffs__list">
+                            <li class="tariffs__item tariffs__item-current">
+                                <h3 class="tariffs__subtitle">Курс</h3>
+                                <div class="tariffs__price">30.000 ₽</div>
+                                <p class="tariffs__descr">Акушерство и гинекология</p>
+                                <a href="Акушерство и гинекология .html" class="btn-reset btn tariffs__btn" data-scroll>Описание</a>
+                            </li>
+                            <li class="tariffs__item">
+                                <h3 class="tariffs__subtitle">Курс</h3>
+                                <div class="tariffs__price">25.000 ₽</div>
+                                <p class="tariffs__descr">Аллергология и иммунология</p>
+                                <a href="Аллергология и иммунология.html" class="btn-reset btn tariffs__btn" data-scroll>Описание</a>
+                            </li>
+                            <li class="tariffs__item">
+                                <h3 class="tariffs__subtitle">Курс</h3>
+                                <div class="tariffs__price">35.000 ₽</div>
+                                <p class="tariffs__descr">Гематология</p>
+                                <a href="Гематология.html" class="btn-reset btn tariffs__btn" data-scroll>Описание</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="order">
+                    <div class="container order__container">
+                        <div class="order__left">
+                            <h2 class="order__title">Запишитесь на курс со скидкой 15%</h2>
+                            <p class="order__descr">Акция действительна до 10 марта 2024 года</p>
+                        </div>
+                        <div class="order__right">
+                            <form action="#" class="form order__form" method="post">
+                                <label class="form__label">
+                                    <input type="text" name="names" id="names" class="input-reset form__input input-name" placeholder="Имя" required>
+                                </label>
+                                <label class="form__label">
+                                    <input type="tel" name="phone" id="phone" class="input-reset form__input input-tel" placeholder="Телефон" required>
+                                </label>
+                                <label class="form__label">
+                                    <input type="email" name="email" id="email" class="input-reset form__input input-email" placeholder="E-mail" required>
+                                </label>
+                                <button  class="btn-reset btn btn--dark form__btn" onclick="sendMessage();alert('Спасибо что записались')">Отправить</button>
+                            </form>
+                        </div>
+                        <script src="./index.js"></script>
+                    </div>
+                </section>
+            </main>
+            
+            <footer class="footer">
+                <div class="container-fluid footer__container">
+                    <div class="footer__left">
+                        <a href="#" class="logo footer__logo">
+                            <img loading="lazy" src="img/Фгбоу Во Астраханский Гму.svg" class="image" width="200" height="48">
+                        </a>
+                        <div class="footer__copy">© Фгбоу Во Астраханский Гму</div>
+                    </div>
+                    <a  class="phone">+7(8512) 66-94-80</a>
+                </div>
+            </footer>
+    </body>
+</html>
