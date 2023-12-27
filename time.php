@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>PHP Получить простую дату</h1>
+<h1>Работа с данными</h1>
 
 <?php
-echo "Сегодня " . date("Y/m/d") . "<br>";
-echo "Сегодня " . date("Y.m.d") . "<br>";
-echo "Сегодня " . date("Y-m-d") . "<br>";
-echo "Сегодня " . date("l");
+     class HomeController extends Controller {
+         public function index() {
+             $data = ['name' => 'John', 'age' => 25];
+             return view('home', $data);
+         }
+     }
+     
 ?>
 
 </body>
